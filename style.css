@@ -1,0 +1,155 @@
+/* Global Styles */
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    color: #333;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #f43b47;
+  }
+  
+  /* Hero Section Styles */
+  
+  .hero {
+    background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71');
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    color: #fff;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero button {
+    background-color: #f43b47;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.75rem 2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .hero button:hover {
+    background-color: #e52e39;
+  }
+  
+  /* Services Section Styles */
+  
+  .services {
+    padding: 5rem 0;
+  }
+  
+  .services h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+  }
+  
+  .service {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .service:hover {
+    transform: translateY(-10px);
+  }
+  
+  .service i {
+    font-size: 3rem;
+    color: #f43b47;
+    margin-bottom: 1rem;
+  }
+  
+  .service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .service p {
+    font-size: 1rem;
+  }
+  
+  /* Blog Section Styles */
+  
+  .blog {
+    background-color: #f9f9f9;
+    padding: 5rem 0;
+  }
+  
+  .blog h2 {
+    text-align: center;
+  }
